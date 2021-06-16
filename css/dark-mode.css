@@ -1,0 +1,103 @@
+[data-theme="dark"] {
+    background-color: #373737;
+    color: #eee;
+}
+
+[data-theme="dark"] .navbar {
+    background-color: #2A2D2E;
+}
+
+[data-theme="dark"] .sticky {
+    background-color: #5BBB88;
+    box-shadow: 0px 0px 5px 1px #349484;
+    padding-left: 20px;
+}
+
+[data-theme="dark"] .banner {
+    background-color: #2A2D2E;
+}
+
+[data-theme="dark"] .bg-3 {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .bg-2 {
+    color: #5BBB88;
+}
+
+[data-theme="dark"] .sticky {
+    box-shadow: 0px 0px 10px 2px #1f2020;
+}
+
+[data-theme="dark"] .banner .jumbotron {
+    background-color: #2A2D2E;
+}
+
+[data-theme="dark"] .portofolio .jumbotron {
+    background-color: #2A2D2E;
+}
+
+[data-theme="dark"] .portofolio .jumbotron .display-4 {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .portofolio .jumbotron .card {
+    background-color: #2A2D2E;
+    box-shadow: 0 4px 20px 0 #1f2020;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .fitur .jumbotron {
+    background-color: #2A2D2E;
+}
+
+[data-theme="dark"] .fitur .jumbotron .lead {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .fitur .jumbotron .card:hover {
+    box-shadow: 0 8px 16px 0 #1f2020;
+}
+
+[data-theme="dark"] .contact .jumbotron {
+    background-color: #2A2D2E;
+}
+
+[data-theme="dark"] .contact .jumbotron .form-group input,
+[data-theme="dark"] .contact .jumbotron .form-group textarea {
+    background-color: #2A2D2E;
+    border: none;
+    box-shadow: 0 3px 16px 0 #1f2020;
+}
+
+[data-theme="dark"] .contact .jumbotron h4 {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .contact .jumbotron .form-group .btn {
+    color: #2A2D2E;
+}
+
+[data-theme="dark"] .contact .jumbotron p {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .footer .jumbotron .fa-moon {
+    color: #2A2D2E;
+}
+
+[data-theme="dark"] .footer .jumbotron .fa-moon:hover {
+    color: #202122;
+}
+
+[data-theme="dark"] .buttondark {
+    background-color: #2A2D2E;
+    color: #ffffff;
+    box-shadow: 0 3px 16px 0 #1f2020;
+}
+
+[data-theme="dark"] .fitur .jumbotron .card {
+    background-color: #2A2D2E;
+    box-shadow: 0 3px 16px 0 #1f2020;
+    color: #5BBB88;
+}

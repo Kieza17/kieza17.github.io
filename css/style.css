@@ -1,0 +1,316 @@
+* {
+    scroll-behavior: smooth;
+    transition: 0.4s;
+}
+
+body {
+    background-color: #EBF0DF;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+.bg-1 {
+    color: #5BBB88;
+}
+
+.bg-2 {
+    color: #EBF0DF;
+}
+
+.bg-3 {
+    color: #473f47;
+}
+
+.bg-4 {
+    color: #e72727;
+}
+
+.del-garis {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #5BBB88;
+}
+
+.navbar-toggler i {
+    color: #EBF0DF;
+}
+
+.navbar ul li a {
+    color: #EBF0DF;
+}
+
+.navbar .btn {
+    border: none;
+    color: #EBF0DF;
+    border: 2px solid #EBF0DF;
+    background-color: transparent;
+}
+
+.navbar .btn:hover {
+    border: none;
+    color: #5BBB88;
+    border: 2px solid #EBF0DF;
+    background-color: #EBF0DF;
+}
+
+.navbar .navbar-brand {
+    color: #EBF0DF;
+}
+
+.sticky {
+    background-color: #5BBB88;
+    box-shadow: 0px 0px 5px 1px #349484;
+    padding-left: 20px;
+}
+
+.sticky .container {
+    width: 83%;
+}
+
+.banner {
+    background-color: #EBF0DF;
+}
+
+.banner .jumbotron img {
+    width: 350px;
+    float: right;
+}
+
+.banner .jumbotron hr {
+    height: 2px;
+    border-radius: 50px;
+    background-color: #EBF0DF;
+}
+
+.banner .jumbotron .display-4 {
+    letter-spacing: 1.5px;
+}
+
+.banner .jumbotron .lead {
+    letter-spacing: 1.5px;
+}
+
+.banner .jumbotron {
+    background-color: #5BBB88;
+    height: 100vh;
+    border-radius: 0 0 200px 0;
+}
+
+
+.banner .jumbotron .text {
+    color: #EBF0DF;
+}
+
+.banner .jumbotron .text hr {
+    background-color: #EBF0DF;
+}
+
+.banner .jumbotron .text .btn {
+    border: 2px solid #EBF0DF;
+    background-color: #EBF0DF;
+    color: #349484;
+    transition: 0.5s;
+}
+
+.banner .jumbotron .text .btn:hover {
+    background-color: transparent;
+    border: 2px solid #EBF0DF;
+    color: #EBF0DF;
+}
+
+.banner .jumbotron .text .btn i {
+    width: 10px;
+    height: 10px;
+}
+
+.jumbotron {
+    border-radius: 0;
+    margin: 0;
+}
+
+.portofolio .jumbotron {
+    background-color: #EBF0DF;
+    height: 100vh;
+}
+
+.portofolio .jumbotron .display-4 {
+    color: #473f47;
+}
+
+.portofolio .jumbotron img {
+    border-radius: 5%;
+}
+
+.portofolio .jumbotron .card {
+    color: #473f47;
+    background-color: #EBF0DF;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* transition: 0.3s; */
+}
+
+.portofolio .jumbotron .card .btn {
+    background-color: #5BBB88;
+    color: #EBF0DF;
+    border: 2px solid #5BBB88;
+}
+
+.portofolio .jumbotron .card .btn:hover {
+    background-color: transparent;
+    color: #5BBB88;
+}
+
+.portofolio .jumbotron .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fitur .jumbotron {
+    background-color: #5BBB88;
+}
+
+.fitur .jumbotron .card {
+    color: #EBF0DF;
+    border: none;
+}
+
+.fitur .jumbotron .lead {
+    color: #EBF0DF;
+    letter-spacing: 1px;
+}
+
+.fitur .jumbotron .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fitur .jumbotron img {
+    width: 350px;
+}
+
+.fitur .jumbotron .card {
+    background-color: #5BBB88;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact .jumbotron {
+    background-color: #EBF0DF;
+}
+
+.contact .jumbotron h4 {
+    color: #5BBB88;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+
+.contact .jumbotron h4 i {
+    letter-spacing: 0;
+    color: #5BBB88;
+    padding: 10px;
+    border: 2px solid #5BBB88;
+    border-radius: 50%;
+}
+
+.contact .jumbotron .form-group input,
+.contact .jumbotron .form-group textarea {
+    background-color: #EBF0DF;
+    border: none;
+    color: #5BBB88;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact .jumbotron .form-group input::-webkit-input-placeholder,
+.contact .jumbotron .form-group textarea::-webkit-input-placeholder {
+    color: #5BBB88;
+}
+
+.contact .jumbotron .form-group textarea {
+    border-radius: 20px;
+    height: 200px;
+}
+
+.contact .jumbotron .form-group .btn {
+    background-color: #5BBB88;
+    color: #EBF0DF;
+    border: 2px solid #5BBB88;
+}
+
+.contact .jumbotron .form-group .btn:hover {
+    background-color: transparent;
+    color: #5BBB88;
+}
+
+.contact .jumbotron p {
+    color: #473f47;
+}
+
+.footer .jumbotron {
+    background-color: #5BBB88;
+    color: #EBF0DF;
+}
+
+.footer .jumbotron i {
+
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #EBF0DF;
+    transition: 0.5s;
+}
+
+.footer .jumbotron i:hover {
+    color: #349484;
+}
+
+.footer .jumbotron .fa-moon {
+    color: #EBF0DF;
+    cursor: pointer;
+}
+
+.footer .jumbotron .fa-moon:hover {
+    color: #c2c4bf;
+}
+
+.buttondark {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 1000;
+    position: fixed;
+    bottom: 250px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: #EBF0DF;
+    color: #5BBB88;
+    cursor: pointer;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    background-color: #EBF0DF;
+    color: #5BBB88;
+}
+
+.modal-content .btn {
+    background-color: #5BBB88;
+    color: #EBF0DF;
+    border: 2px solid #5BBB88;
+}
+
+.modal-content .btn:hover {
+    background-color: transparent;
+    color: #5BBB88;
+    border: 2px solid #5BBB88;
+}
+
+.active {
+    transition: 0s;
+    border-bottom: 2px solid #EBF0DF;
+}
+
+.rightc {
+    margin-bottom: -3px;
+    
+} 

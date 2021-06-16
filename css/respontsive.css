@@ -1,0 +1,98 @@
+@media only screen and (max-width: 800px) {
+
+    .banner .jumbotron {
+        height: auto;
+    }
+
+    .banner .jumbotron .col-md-6 {
+        width: 50%;
+    }
+
+    .banner .jumbotron img {
+        width: 80%;
+    }
+
+    .banner .jumbotron .display-4 {
+        letter-spacing: 0.6px;
+        font-size: 30px;
+    }
+
+    .banner .jumbotron .text {
+        margin-top: 40px;
+    }
+
+    .banner .jumbotron .btn {
+        font-size: 10px;
+    }
+
+    .banner .jumbotron .text .btn i {
+        width: 5px;
+        height: 5px;
+    }
+
+    .banner .jumbotron .lead,
+    .fitur .jumbotron .lead {
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
+
+    .portofolio .jumbotron {
+        height: auto;
+    }
+
+    .portofolio .jumbotron .display-4,
+    .fitur .jumbotron .display-4,
+    .contact .jumbotron .display-4 {
+        font-size: 35px;
+    }
+
+    .fitur .jumbotron img {
+        width: 40%;
+
+    }
+
+    .fitur .jumbotron .card {
+        height: 90%;
+    }
+
+    .fitur .jumbotron .box .col-md-6 {
+        width: 50%;
+    }
+
+    .contact .jumbotron .col-md-4 {
+        text-align: center;
+    }
+
+    .contact .jumbotron .box1 {
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
+    .contact .jumbotron h4 {
+        font-weight: 400px;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    .contact .jumbotron p {
+        font-size: 14px;
+    }
+
+    .contact .jumbotron h4 i {
+        padding: 7px;
+    }
+
+    .active {
+        font-weight: bolder;
+    }
+
+    .contact .jumbotron .form-group textarea {
+        height: 100px;
+    }
+
+    .footer .jumbotron .lead {
+        font-size: 15px;
+    }
+}
