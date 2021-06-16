@@ -1,0 +1,1 @@
+function jam(){var e,t,n,o=document.getElementById("jam"),u=new Date;e=u.getHours(),t=set(u.getMinutes()),n=set(u.getSeconds()),o.innerHTML=e+":"+t+":"+n,setTimeout("jam()",1e3)}function set(e){return e=e<10?"0"+e:e}window.onload=function(){jam()};
